@@ -142,7 +142,6 @@ cursor: pointer;
 .link-icon {
     margin-right: 10px;
     fill: currentColor;
-    
 }
 
 .list .contact-item + .contact-item{
@@ -228,11 +227,13 @@ background-color: var(--additional-bgc);
     border-radius: 4px;
     display: flex;
     margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
-.peculiarities-icon{
+/* .peculiarities-icon{
     margin: auto;
-}
+} */
 
 .peculiarities{
     display: flex;
